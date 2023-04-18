@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+.container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    width: 100%;
+    min-height: 30px;
+    background-color: #292929;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 15px;
+    gap: 8px 15px;
+}
+.logoNavBar{
+    width: 150px;
+}
+.headerBtnGroup{
+    display: flex;
+    gap: 15px;
+}
+.navBtn{
+    font-size: 16px;
+    padding: 6px;
+    background-color: transparent;
+    border: 2px solid transparent;
+    color: red;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.navBtn:hover{
+    border-bottom: 2px solid white;
+}
+.sectionTitle{
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 15px;
+    color: red;
+}
+.sectionDescription{
+    text-align: center;
+    color: whitesmoke;
+    padding-bottom: 15px;
+}
+.promoImg{
+    width: 100%;
+    height: 500px;
+}
+.topCursos{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    text-align: center;
+    padding-top: 15px;
+}
+.cursoContent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    grid-area: cursoContent;
+}
+.cursoCard{
+    width: 280px;
+    height: auto;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.cursoCardImg{
+    width: 100%;
+    height: 180px;
+    border-radius: 10px;
+}
+.cursoCard:hover{
+    border-color: black;
+}
+.cursoCardDescricao{
+    text-align: justify;
+}
+.sobreNos{
+    padding-top: 15px;
+    background-color: red;
+    display: flex;
+}
+.sobreNosImg{
+    height: 500px;
+}
