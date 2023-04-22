@@ -61,17 +61,17 @@
     background-color: #F5F5F5;
     padding: 10px;
 }
-.sectionApresentação{
+.sectionApresentacao{
     height: auto;
     width: 800px;
 }
-.sectionApresentaçãoTitle{
+.sectionApresentacaoTitle{
     color: black;
     font-size: 30px;
     font-family: Comic Sans MS;
     padding: 0px 150px 0px 60px;
 }
-.sectionApresentaçãoDescription{
+.sectionApresentacaoDescription{
     color:#696969;
     font-size: 18px;
     font-family: Comic Sans MS;
