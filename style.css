@@ -12,12 +12,12 @@
 .header{
     width: 100%;
     min-height: 30px;
-    background-color: #292929;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 15px;
+    padding: 15px 100px 15px 100px;
     gap: 8px 15px;
 }
 .logoNavBar{
@@ -32,27 +32,54 @@
     padding: 6px;
     background-color: transparent;
     border: 2px solid transparent;
-    color: red;
+    color: #696969;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.navBtnFaleConosco{
+    font-size: 15px;
+    padding: 10px 20px 10px 20px;
+    background-color: red;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    color: white;
     cursor: pointer;
     transition: 0.4s;
 }
 .navBtn:hover{
-    border-bottom: 2px solid white;
+    color: black;
+    border-bottom: 2px solid red;
 }
-.sectionTitle{
-    font-size: 26px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    padding-top: 15px;
-    color: red;
+.sectionPrincipal{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    background-color: #F5F5F5;
+    padding: 10px;
 }
-.sectionDescription{
-    text-align: center;
-    color: whitesmoke;
-    padding-bottom: 15px;
+.sectionApresentação{
+    height: auto;
+    width: 800px;
 }
-.promoImg{
-    width: 100%;
+.sectionApresentaçãoTitle{
+    color: black;
+    font-size: 30px;
+    font-family: Comic Sans MS;
+    padding: 0px 150px 0px 60px;
+}
+.sectionApresentaçãoDescription{
+    color:#696969;
+    font-size: 18px;
+    font-family: Comic Sans MS;
+    padding: 0px 150px 0px 60px;
+}
+.imgInicial{
+    padding: 60px;
+    width: 500px;
     height: 500px;
 }
 .topCursos{
@@ -65,8 +92,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 50px;
+    gap: 60px;
     grid-area: cursoContent;
+    padding: 30px 120px 30px 120px;
 }
 .cursoCard{
     width: 280px;
@@ -88,10 +116,45 @@
     text-align: justify;
 }
 .sobreNos{
-    padding-top: 15px;
-    background-color: red;
+    background-color: #F5F5F5;
     display: flex;
+    height: 400px;
+}
+.sobreNostext{
+    padding: 5%;
+    text-align: justify;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .sobreNosImg{
-    height: 500px;
+    height: 100%;
+    width: 450px;
+}
+.footer{
+    height: 100%;
+    min-height: 40px;
+    background-color: #292929;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    gap: 15px;
+}
+.footerEndText{
+    color: white;
+    display: inline;
+    word-wrap: break-word;
+    list-style-type: disc;
+    box-sizing: border-box;
+}
+.endereco{
+    font-size: 13px;
+    padding: 5px;
+}
+.instaFooter{
+    width: 40px;
+}
+.whatFooter{
+    width: 40px;
 }
